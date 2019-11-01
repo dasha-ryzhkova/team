@@ -10,6 +10,7 @@ def ParcelNamesInStr(your_names):
     FirstName = NameList[0]
     SecName = NameList[1]
     SurName = NameList[2]
-    return None
-
+    print(FirstName)
+    print(SecName)
+    print(SurName)
 
