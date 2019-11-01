@@ -6,4 +6,14 @@ def ParcelNamesInStr(your_names):
                               Ім'я                    Дар'я
                               Побатькові)             Олександрівна)
     '''
+    NameList = your_names.split(" ")
+    FirstName = NameList[0]
+    SecName = NameList[1]
+    SurName = NameList[2]
+    # print (FirstName)
+    # print (SecName)
+    # print (SurName)
+    return None
+your_names = input (" ")
+ParcelNamesInStr(your_names)
 
